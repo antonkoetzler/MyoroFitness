@@ -131,9 +131,11 @@ function TopBar() {
         {/* Logo */}
         <Image source={logoSrc} style={styles.image} />
 
+        [/*
         <TouchableWithoutFeedback onPress={() => setShowDropdown(!showDropdown)}>
           <Image source={optionsSrc} style={styles.image} />
         </TouchableWithoutFeedback>
+        */}
       </View>
 
       {/* Option's dropdown */}
