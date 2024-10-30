@@ -1,7 +1,7 @@
 package functions
 
 import (
-	"backend/routes"
+	"backend/src/routes"
 	"github.com/gorilla/mux"
 )
 

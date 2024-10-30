@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"backend/services"
+	"backend/src/services"
 	"fmt"
 	"net/http"
 )

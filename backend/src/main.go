@@ -1,7 +1,7 @@
 package main
 
 import (
-	"backend/functions"
+	"backend/src/functions"
 	"log"
 	"net/http"
 )

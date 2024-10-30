@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"backend/controllers"
+	"backend/src/controllers"
 	"net/http"
 	"net/http/httptest"
 	"testing"

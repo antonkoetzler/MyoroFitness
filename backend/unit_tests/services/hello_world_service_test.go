@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"backend/services"
+	"backend/src/services"
 	"testing"
 )
 

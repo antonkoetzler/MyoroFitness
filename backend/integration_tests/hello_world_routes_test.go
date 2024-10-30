@@ -1,7 +1,7 @@
 package integration_tests
 
 import (
-	"backend/routes"
+	"backend/src/routes"
 	"github.com/gorilla/mux"
 	"net/http"
 	"net/http/httptest"
