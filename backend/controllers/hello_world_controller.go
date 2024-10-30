@@ -17,5 +17,5 @@ func NewHelloWorldController() *HelloWorldController {
 }
 
 func (controller *HelloWorldController) Get(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, controller.userService.Get())
+	fmt.Fprint(w, controller.userService.Get())
 }
