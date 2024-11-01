@@ -7,15 +7,15 @@ import (
 )
 
 type HelloWorldController struct {
-	userService *services.HelloWorldService
+	helloWorldService *services.HelloWorldService
 }
 
 func NewHelloWorldController() *HelloWorldController {
 	return &HelloWorldController{
-		userService: services.NewHelloWorldService(),
+		helloWorldService: services.NewHelloWorldService(),
 	}
 }
 
 func (controller *HelloWorldController) Get(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, controller.userService.Get())
+	fmt.Fprint(w, controller.helloWorldService.Get())
 }

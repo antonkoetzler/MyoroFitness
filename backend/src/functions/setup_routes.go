@@ -8,5 +8,6 @@ import (
 func SetupRoutes() *mux.Router {
 	router := mux.NewRouter()
 	routes.HelloWorldRoutes(router)
+	routes.UserRoutes(router)
 	return router
 }

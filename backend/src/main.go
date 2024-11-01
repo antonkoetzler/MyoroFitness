@@ -9,6 +9,6 @@ import (
 func main() {
 	port := ":8080"
 	router := functions.SetupRoutes()
-	log.Fatal(http.ListenAndServe(port, router))
 	log.Println("Server is running on port \"" + port + "\".")
+	log.Fatal(http.ListenAndServe(port, router))
 }

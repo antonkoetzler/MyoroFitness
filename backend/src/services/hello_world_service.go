@@ -1,5 +1,7 @@
 package services
 
+import "backend/src/models"
+
 type HelloWorldService struct{}
 
 func NewHelloWorldService() *HelloWorldService {
@@ -7,5 +9,5 @@ func NewHelloWorldService() *HelloWorldService {
 }
 
 func (service *HelloWorldService) Get() string {
-	return "Hello, World!\n"
+	return models.NewHelloWorld().Text
 }
