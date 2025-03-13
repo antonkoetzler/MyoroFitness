@@ -27,6 +27,7 @@
     "@types/react": "~18.3.12",
     "prettier": "^3.5.3",
     "prettier-plugin-nativewind": "^0.2.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.3.3"
   },
   "private": true
