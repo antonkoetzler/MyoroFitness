@@ -7,6 +7,11 @@ export const theme = {
       primary: '#181818',
       secondary: '#EDE6D6',
     },
+    fontFamily: {
+      'nunito-regular': 'Nunito_400Regular',
+      'nunito-italic': 'Nunito_400Regular_Italic',
+      'nunito-bold': 'Nunito_700Bold',
+    },
   },
 };
 export const plugins = [];
