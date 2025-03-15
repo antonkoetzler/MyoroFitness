@@ -33,6 +33,6 @@ function _AppBar() {
  */
 function _Body() {
   return (
-    <Text>I lyke boyz</Text>
+    <Text>I lyke GIRLS</Text>
   );
 }

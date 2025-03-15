@@ -12,6 +12,9 @@ export const theme = {
       'nunito-italic': 'Nunito_400Regular_Italic',
       'nunito-bold': 'Nunito_700Bold',
     },
+    fontSize: {
+      lg: 24,
+    },
   },
 };
 export const plugins = [];

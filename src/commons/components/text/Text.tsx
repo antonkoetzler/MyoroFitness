@@ -8,7 +8,12 @@ export default function Text(props: TextProps) {
   return (
     <RNText
       {...props}
-      className={clsx('font-nunito-regular text-secondary leading-none', props.className)}
+      className={
+        clsx(
+          'font-nunito-regular text-secondary text-lg',
+          props.className,
+        )
+      }
     />
   );
 }

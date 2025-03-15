@@ -5,10 +5,10 @@ import {
   useFonts,
 } from '@expo-google-fonts/nunito';
 import * as SplashScreen from 'expo-splash-screen';
-import { View } from 'react-native';
 import './App.css';
 import { useEffect } from 'react';
 import HomeScreen from '@/app/screens/home/components/HomeScreen';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 // Activates the splash screen.
 SplashScreen.preventAutoHideAsync();
@@ -34,8 +34,8 @@ export default function App() {
   }
 
   return (
-    <View className={'bg-primary w-full font-nunito-regular'}>
+    <SafeAreaView className={'bg-primary w-full h-full font-nunito-regular'}>
       <HomeScreen />
-    </View>
+    </SafeAreaView>
   );
 }
